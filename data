@@ -1,0 +1,130 @@
+PUT /product
+{
+  "mappings": {
+    "dynamic": true,
+    "properties": {
+      "title": {
+        "type": "text",
+        "copy_to": "all_filters"
+      },
+      "description": {
+        "type": "text",
+        "copy_to": "all_filters"
+      },
+      "price": {
+        "type": "float"
+      },
+      "category": {
+        "type": "keyword",
+        "copy_to": "all_filters"
+      },
+      "brand": {
+        "type": "keyword",
+        "copy_to": "all_filters"
+      },
+      "quantity": {
+        "type": "integer"
+      },
+      "filters": {
+        "type": "nested",
+        "properties": {
+          "name": {
+            "type": "keyword",
+            "copy_to": "all_filters"
+          },
+          "value": {
+            "type": "keyword",
+            "copy_to": "all_filters"
+          }
+        }
+      }
+    }
+  }
+}
+# https://www.elastic.co/guide/en/elasticsearch/reference/8.14/copy-to.html
+# The copy_to parameter allows you to copy the values of multiple fields into a group field, which can then be queried as a single field. For example, the first_name and last_name fields can be copied to the full_name field as follows:
+
+
+
+
+
+POST /product/_bulk
+{ "index": { "_id": "1" } }
+{ "title": "iPhone 13", "description": "Latest Apple smartphone", "price": 999.99, "category": "electronics", "brand": "Apple", "quantity": 50, "filters": [ {"name": "color", "value": "blue"}, {"name": "storage", "value": "128GB"} ] }
+{ "index": { "_id": "2" } }
+{ "title": "Samsung Galaxy S21", "description": "Flagship Samsung smartphone", "price": 899.99, "category": "electronics", "brand": "Samsung", "quantity": 100, "filters": [ {"name": "color", "value": "black"}, {"name": "storage", "value": "256GB"} ] }
+{ "index": { "_id": "3" } }
+{ "title": "Sony WH-1000XM4", "description": "Noise Cancelling Headphones", "price": 349.99, "category": "electronics", "brand": "Sony", "quantity": 200, "filters": [ {"name": "color", "value": "silver"} ] }
+{ "index": { "_id": "4" } }
+{ "title": "Nike Air Max 270", "description": "Popular running shoes", "price": 150.00, "category": "fashion", "brand": "Nike", "quantity": 150, "filters": [ {"name": "color", "value": "white"}, {"name": "size", "value": "10"} ] }
+{ "index": { "_id": "5" } }
+{ "title": "Adidas Ultraboost", "description": "Comfortable running shoes", "price": 180.00, "category": "fashion", "brand": "Adidas", "quantity": 120, "filters": [ {"name": "color", "value": "black"}, {"name": "size", "value": "9"} ] }
+{ "index": { "_id": "6" } }
+{ "title": "Dell XPS 13", "description": "High-performance laptop", "price": 1200.00, "category": "electronics", "brand": "Dell", "quantity": 70, "filters": [ {"name": "color", "value": "silver"}, {"name": "storage", "value": "512GB"} ] }
+{ "index": { "_id": "7" } }
+{ "title": "Apple MacBook Air", "description": "Lightweight Apple laptop", "price": 999.00, "category": "electronics", "brand": "Apple", "quantity": 60, "filters": [ {"name": "color", "value": "gold"}, {"name": "storage", "value": "256GB"} ] }
+{ "index": { "_id": "8" } }
+{ "title": "Sony Bravia 55\"", "description": "4K Ultra HD Smart TV", "price": 799.99, "category": "electronics", "brand": "Sony", "quantity": 30, "filters": [ {"name": "screen_size", "value": "55inch"} ] }
+{ "index": { "_id": "9" } }
+{ "title": "Levi's 501 Jeans", "description": "Classic fit jeans", "price": 60.00, "category": "fashion", "brand": "Levi's", "quantity": 80, "filters": [ {"name": "color", "value": "blue"}, {"name": "size", "value": "32"} ] }
+{ "index": { "_id": "10" } }
+{ "title": "Canon EOS R5", "description": "Professional mirrorless camera", "price": 3899.00, "category": "electronics", "brand": "Canon", "quantity": 20, "filters": [ {"name": "megapixels", "value": "45MP"} ] }
+{ "index": { "_id": "11" } }
+{ "title": "Google Pixel 6", "description": "Newest Google smartphone", "price": 799.99, "category": "electronics", "brand": "Google", "quantity": 90, "filters": [ {"name": "color", "value": "sorta seafoam"}, {"name": "storage", "value": "128GB"}, {"name": "network", "value": "5G"} ] }
+{ "index": { "_id": "12" } }
+{ "title": "Bose QuietComfort 45", "description": "Noise Cancelling Headphones", "price": 329.99, "category": "electronics", "brand": "Bose", "quantity": 110, "filters": [ {"name": "color", "value": "black"}, {"name": "battery_life", "value": "24 hours"} ] }
+{ "index": { "_id": "13" } }
+{ "title": "Asus ROG Zephyrus G14", "description": "High-performance gaming laptop", "price": 1499.99, "category": "electronics", "brand": "Asus", "quantity": 40, "filters": [ {"name": "color", "value": "white"}, {"name": "storage", "value": "1TB"}, {"name": "ram", "value": "16GB"}, {"name": "graphics", "value": "NVIDIA RTX 3060"} ] }
+{ "index": { "_id": "14" } }
+{ "title": "Fitbit Charge 5", "description": "Advanced fitness tracker", "price": 179.95, "category": "electronics", "brand": "Fitbit", "quantity": 200, "filters": [ {"name": "color", "value": "black"}, {"name": "battery_life", "value": "7 days"}, {"name": "water_resistant", "value": "yes"} ] }
+{ "index": { "_id": "15" } }
+{ "title": "Instant Pot Duo 7-in-1", "description": "Multi-Use Pressure Cooker", "price": 89.00, "category": "home", "brand": "Instant Pot", "quantity": 150, "filters": [ {"name": "capacity", "value": "6 Quart"}, {"name": "color", "value": "stainless steel"} ] }
+{ "index": { "_id": "16" } }
+{ "title": "JBL Flip 5", "description": "Portable Waterproof Speaker", "price": 119.95, "category": "electronics", "brand": "JBL", "quantity": 180, "filters": [ {"name": "color", "value": "red"}, {"name": "battery_life", "value": "12 hours"}, {"name": "water_resistant", "value": "yes"} ] }
+{ "index": { "_id": "17" } }
+{ "title": "Patagonia Nano Puff Jacket", "description": "Lightweight Insulated Jacket", "price": 199.00, "category": "fashion", "brand": "Patagonia", "quantity": 100, "filters": [ {"name": "color", "value": "navy"}, {"name": "size", "value": "M"}, {"name": "material", "value": "recycled polyester"}, {"name": "insulation", "value": "synthetic"} ] }
+{ "index": { "_id": "18" } }
+{ "title": "Dyson V11 Torque Drive", "description": "Cordless Vacuum Cleaner", "price": 699.99, "category": "home", "brand": "Dyson", "quantity": 60, "filters": [ {"name": "color", "value": "blue"}, {"name": "battery_life", "value": "60 minutes"}, {"name": "weight", "value": "6.68 lbs"} ] }
+{ "index": { "_id": "19" } }
+{ "title": "KitchenAid Artisan Stand Mixer", "description": "Versatile Kitchen Appliance", "price": 379.99, "category": "home", "brand": "KitchenAid", "quantity": 85, "filters": [ {"name": "color", "value": "red"}, {"name": "capacity", "value": "5 Quart"}, {"name": "power", "value": "325 watts"} ] }
+{ "index": { "_id": "20" } }
+{ "title": "The North Face Borealis Backpack", "description": "Durable and Spacious Backpack", "price": 89.00, "category": "fashion", "brand": "The North Face", "quantity": 130, "filters": [ {"name": "color", "value": "black"}, {"name": "capacity", "value": "28 Liters"}, {"name": "material", "value": "nylon"} ] }
+{ "index": { "_id": "21" } }
+{ "title": "HP Envy 13", "description": "Slim and Stylish Laptop", "price": 899.99, "category": "electronics", "brand": "HP", "quantity": 70, "filters": [ {"name": "color", "value": "silver"}, {"name": "storage", "value": "512GB"}, {"name": "ram", "value": "8GB"}, {"name": "display", "value": "13.3 inch"} ] }
+{ "index": { "_id": "22" } }
+{ "title": "Apple Watch Series 7", "description": "Advanced Smartwatch", "price": 399.99, "category": "electronics", "brand": "Apple", "quantity": 90, "filters": [ {"name": "color", "value": "midnight"}, {"name": "size", "value": "45mm"}, {"name": "connectivity", "value": "GPS + Cellular"} ] }
+{ "index": { "_id": "23" } }
+{ "title": "Columbia Bugaboo II Fleece Interchange Jacket", "description": "Versatile Winter Jacket", "price": 179.00, "category": "fashion", "brand": "Columbia", "quantity": 50, "filters": [ {"name": "color", "value": "black"}, {"name": "size", "value": "L"}, {"name": "material", "value": "nylon"}, {"name": "insulation", "value": "fleece"} ] }
+{ "index": { "_id": "24" } }
+{ "title": "GoPro HERO9 Black", "description": "Waterproof Action Camera", "price": 399.99, "category": "electronics", "brand": "GoPro", "quantity": 80, "filters": [ {"name": "resolution", "value": "5K"}, {"name": "color", "value": "black"}, {"name": "battery_life", "value": "2 hours"} ] }
+{ "index": { "_id": "25" } }
+{ "title": "Samsung Galaxy Tab S7", "description": "High-End Android Tablet", "price": 649.99, "category": "electronics", "brand": "Samsung", "quantity": 100, "filters": [ {"name": "color", "value": "mystic bronze"}, {"name": "storage", "value": "128GB"}, {"name": "display", "value": "11 inch"}, {"name": "connectivity", "value": "WiFi"} ] }
+{ "index": { "_id": "26" } }
+{ "title": "LG OLED55CXPUA", "description": "55\" 4K Smart OLED TV", "price": 1399.99, "category": "electronics", "brand": "LG", "quantity": 40, "filters": [ {"name": "screen_size", "value": "55 inch"}, {"name": "resolution", "value": "4K"}, {"name": "color", "value": "black"} ] }
+{ "index": { "_id": "27" } }
+{ "title": "Sony Alpha a7 III", "description": "Full-Frame Mirrorless Camera", "price": 1999.99, "category": "electronics", "brand": "Sony", "quantity": 30, "filters": [ {"name": "megapixels", "value": "24MP"}, {"name": "color", "value": "black"}, {"name": "sensor", "value": "Full-Frame"} ] }
+{ "index": { "_id": "28" } }
+{ "title": "Yeti Rambler 20 oz Tumbler", "description": "Insulated Travel Mug", "price": 29.99, "category": "home", "brand": "Yeti", "quantity": 300, "filters": [ {"name": "color", "value": "stainless steel"}, {"name": "capacity", "value": "20 oz"}, {"name": "material", "value": "stainless steel"} ] }
+{ "index": { "_id": "30" } }
+{ "title": "Apple iPhone 12", "description": "Previous generation Apple smartphone", "price": 799.99, "category": "electronics", "brand": "Apple", "quantity": 80, "filters": [ {"name": "color", "value": "purple"}, {"name": "storage", "value": "64GB"}, {"name": "network", "value": "5G"} ] }
+{ "index": { "_id": "31" } }
+{ "title": "Apple iPad Pro 12.9\"", "description": "High-end Apple tablet", "price": 1099.99, "category": "electronics", "brand": "Apple", "quantity": 60, "filters": [ {"name": "color", "value": "space gray"}, {"name": "storage", "value": "256GB"}, {"name": "connectivity", "value": "WiFi"} ] }
+{ "index": { "_id": "32" } }
+{ "title": "Apple MacBook Pro 16\"", "description": "High-performance Apple laptop", "price": 2399.00, "category": "electronics", "brand": "Apple", "quantity": 40, "filters": [ {"name": "color", "value": "silver"}, {"name": "storage", "value": "512GB"}, {"name": "ram", "value": "16GB"}, {"name": "processor", "value": "Apple M1 Pro"} ] }
+{ "index": { "_id": "33" } }
+{ "title": "Apple Watch SE", "description": "Affordable Apple smartwatch", "price": 279.99, "category": "electronics", "brand": "Apple", "quantity": 100, "filters": [ {"name": "color", "value": "silver"}, {"name": "size", "value": "40mm"}, {"name": "connectivity", "value": "GPS"} ] }
+{ "index": { "_id": "34" } }
+{ "title": "Apple AirPods Pro", "description": "Noise-cancelling wireless earbuds", "price": 249.99, "category": "electronics", "brand": "Apple", "quantity": 150, "filters": [ {"name": "color", "value": "white"}, {"name": "battery_life", "value": "4.5 hours"}, {"name": "connectivity", "value": "Bluetooth"} ] }
+{ "index": { "_id": "35" } }
+{ "title": "Apple HomePod mini", "description": "Smart speaker with Siri", "price": 99.99, "category": "electronics", "brand": "Apple", "quantity": 120, "filters": [ {"name": "color", "value": "space gray"}, {"name": "connectivity", "value": "WiFi"} ] }
+{ "index": { "_id": "36" } }
+{ "title": "Apple iPad Air", "description": "Powerful and lightweight tablet", "price": 599.99, "category": "electronics", "brand": "Apple", "quantity": 90, "filters": [ {"name": "color", "value": "green"}, {"name": "storage", "value": "64GB"}, {"name": "connectivity", "value": "WiFi"} ] }
+{ "index": { "_id": "37" } }
+{ "title": "Apple Magic Keyboard", "description": "Keyboard for iPad Pro and iPad Air", "price": 299.00, "category": "electronics", "brand": "Apple", "quantity": 200, "filters": [ {"name": "color", "value": "black"}, {"name": "compatibility", "value": "iPad Pro"} ] }
+{ "index": { "_id": "38" } }
+{ "title": "Apple TV 4K", "description": "Streaming device with 4K HDR support", "price": 179.00, "category": "electronics", "brand": "Apple", "quantity": 130, "filters": [ {"name": "color", "value": "black"}, {"name": "storage", "value": "32GB"} ] }
+{ "index": { "_id": "39" } }
+{ "index": { "_id": "40" } }
+{ "title": "Apple iPhone 14", "description": "Previous generation Apple smartphone", "price": 799.99, "category": "electronics", "brand": "Apple", "quantity": 80, "filters": [ {"name": "color", "value": "purple"}, {"name": "storage", "value": "64GB"}, {"name": "network", "value": "5G"} ] }
+{ "index": { "_id": "41" } }
+{ "title": "Apple iPhone 14 Pro", "description": "Previous generation Apple smartphone", "price": 799.99, "category": "electronics", "brand": "Apple", "quantity": 80, "filters": [ {"name": "color", "value": "purple"}, {"name": "storage", "value": "64GB"}, {"name": "network", "value": "5G"} ] }

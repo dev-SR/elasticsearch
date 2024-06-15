@@ -1,0 +1,133 @@
+POST /product/_bulk
+{"index":{"_id":"1"}}
+{"title":"iPhone 13","description":"Latest Apple smartphone","price":999.99,"category":"smartphones","brand":"Apple","quantity":50,"filters":[{"name":"color","value":"blue"},{"name":"storage","value":"128GB"}]}
+{"index":{"_id":"2"}}
+{"title":"Samsung Galaxy S21","description":"Flagship Samsung smartphone","price":899.99,"category":"smartphones","brand":"Samsung","quantity":100,"filters":[{"name":"color","value":"black"},{"name":"storage","value":"256GB"}]}
+{"index":{"_id":"3"}}
+{"title":"Sony WH-1000XM4","description":"Noise Cancelling Headphones","price":349.99,"category":"headphones","brand":"Sony","quantity":200,"filters":[{"name":"color","value":"silver"}]}
+{"index":{"_id":"4"}}
+{"title":"Nike Air Max 270","description":"Popular running shoes","price":150,"category":"fashion","brand":"Nike","quantity":150,"filters":[{"name":"color","value":"white"},{"name":"size","value":"10"}]}
+{"index":{"_id":"5"}}
+{"title":"Adidas Ultraboost","description":"Comfortable running shoes","price":180,"category":"fashion","brand":"Adidas","quantity":120,"filters":[{"name":"color","value":"black"},{"name":"size","value":"9"}]}
+{"index":{"_id":"6"}}
+{"title":"Dell XPS 13","description":"High-performance laptop","price":1200,"category":"laptops","brand":"Dell","quantity":70,"filters":[{"name":"color","value":"silver"},{"name":"storage","value":"512GB"}]}
+{"index":{"_id":"7"}}
+{"title":"Apple MacBook Air","description":"Lightweight Apple laptop","price":999,"category":"laptops","brand":"Apple","quantity":60,"filters":[{"name":"color","value":"gold"},{"name":"storage","value":"256GB"}]}
+{"index":{"_id":"8"}}
+{"title":"Sony Bravia 55\"","description":"4K Ultra HD Smart TV","price":799.99,"category":"televisions","brand":"Sony","quantity":30,"filters":[{"name":"screen_size","value":"55inch"}]}
+{"index":{"_id":"9"}}
+{"title":"Levi's 501 Jeans","description":"Classic fit jeans","price":60,"category":"fashion","brand":"Levi's","quantity":80,"filters":[{"name":"color","value":"blue"},{"name":"size","value":"32"}]}
+{"index":{"_id":"10"}}
+{"title":"Canon EOS R5","description":"Professional mirrorless camera","price":3899,"category":"cameras","brand":"Canon","quantity":20,"filters":[{"name":"megapixels","value":"45MP"}]}
+{"index":{"_id":"11"}}
+{"title":"Google Pixel 6","description":"Newest Google smartphone","price":799.99,"category":"smartphones","brand":"Google","quantity":90,"filters":[{"name":"color","value":"sorta seafoam"},{"name":"storage","value":"128GB"},{"name":"network","value":"5G"}]}
+{"index":{"_id":"12"}}
+{"title":"Bose QuietComfort 45","description":"Noise Cancelling Headphones","price":329.99,"category":"headphones","brand":"Bose","quantity":110,"filters":[{"name":"color","value":"black"},{"name":"battery_life","value":"24 hours"}]}
+{"index":{"_id":"13"}}
+{"title":"Asus ROG Zephyrus G14","description":"High-performance gaming laptop","price":1499.99,"category":"laptops","brand":"Asus","quantity":40,"filters":[{"name":"color","value":"white"},{"name":"storage","value":"1TB"},{"name":"ram","value":"16GB"},{"name":"graphics","value":"NVIDIA RTX 3060"}]}
+{"index":{"_id":"14"}}
+{"title":"Fitbit Charge 5","description":"Advanced fitness tracker","price":179.95,"category":"electronics","brand":"Fitbit","quantity":200,"filters":[{"name":"color","value":"black"},{"name":"battery_life","value":"7 days"},{"name":"water_resistant","value":"yes"}]}
+{"index":{"_id":"15"}}
+{"title":"Instant Pot Duo 7-in-1","description":"Multi-Use Pressure Cooker","price":89,"category":"home","brand":"Instant Pot","quantity":150,"filters":[{"name":"capacity","value":"6 Quart"},{"name":"color","value":"stainless steel"}]}
+{"index":{"_id":"16"}}
+{"title":"JBL Flip 5","description":"Portable Waterproof Speaker","price":119.95,"category":"electronics","brand":"JBL","quantity":180,"filters":[{"name":"color","value":"red"},{"name":"battery_life","value":"12 hours"},{"name":"water_resistant","value":"yes"}]}
+{"index":{"_id":"17"}}
+{"title":"Patagonia Nano Puff Jacket","description":"Lightweight Insulated Jacket","price":199,"category":"fashion","brand":"Patagonia","quantity":100,"filters":[{"name":"color","value":"navy"},{"name":"size","value":"M"},{"name":"material","value":"recycled polyester"},{"name":"insulation","value":"synthetic"}]}
+{"index":{"_id":"18"}}
+{"title":"Dyson V11 Torque Drive","description":"Cordless Vacuum Cleaner","price":699.99,"category":"home","brand":"Dyson","quantity":60,"filters":[{"name":"color","value":"blue"},{"name":"battery_life","value":"60 minutes"},{"name":"weight","value":"6.68 lbs"}]}
+{"index":{"_id":"19"}}
+{"title":"KitchenAid Artisan Stand Mixer","description":"Versatile Kitchen Appliance","price":379.99,"category":"home","brand":"KitchenAid","quantity":85,"filters":[{"name":"color","value":"red"},{"name":"capacity","value":"5 Quart"},{"name":"power","value":"325 watts"}]}
+{"index":{"_id":"20"}}
+{"title":"The North Face Borealis Backpack","description":"Durable and Spacious Backpack","price":89,"category":"fashion","brand":"The North Face","quantity":130,"filters":[{"name":"color","value":"black"},{"name":"capacity","value":"28 Liters"},{"name":"material","value":"nylon"}]}
+{"index":{"_id":"21"}}
+{"title":"HP Envy 13","description":"Slim and Stylish Laptop","price":899.99,"category":"laptops","brand":"HP","quantity":70,"filters":[{"name":"color","value":"silver"},{"name":"storage","value":"512GB"},{"name":"ram","value":"8GB"},{"name":"display","value":"13.3 inch"}]}
+{"index":{"_id":"22"}}
+{"title":"Apple Watch Series 7","description":"Advanced Smartwatch","price":399.99,"category":"watches","brand":"Apple","quantity":90,"filters":[{"name":"color","value":"midnight"},{"name":"size","value":"45mm"},{"name":"connectivity","value":"GPS + Cellular"}]}
+{"index":{"_id":"23"}}
+{"title":"Columbia Bugaboo II Fleece Interchange Jacket","description":"Versatile Winter Jacket","price":179,"category":"fashion","brand":"Columbia","quantity":50,"filters":[{"name":"color","value":"black"},{"name":"size","value":"L"},{"name":"material","value":"nylon"},{"name":"insulation","value":"fleece"}]}
+{"index":{"_id":"24"}}
+{"title":"GoPro HERO9 Black","description":"Waterproof Action Camera","price":399.99,"category":"cameras","brand":"GoPro","quantity":80,"filters":[{"name":"resolution","value":"5K"},{"name":"color","value":"black"},{"name":"battery_life","value":"2 hours"}]}
+{"index":{"_id":"25"}}
+{"title":"Samsung Galaxy Tab S7","description":"High-End Android Tablet","price":649.99,"category":"tablets","brand":"Samsung","quantity":100,"filters":[{"name":"color","value":"mystic bronze"},{"name":"storage","value":"128GB"},{"name":"display","value":"11 inch"},{"name":"connectivity","value":"WiFi"}]}
+{"index":{"_id":"26"}}
+{"title":"LG OLED55CXPUA","description":"55\" 4K Smart OLED TV","price":1399.99,"category":"televisions","brand":"LG","quantity":40,"filters":[{"name":"screen_size","value":"55 inch"},{"name":"resolution","value":"4K"},{"name":"color","value":"black"}]}
+{"index":{"_id":"27"}}
+{"title":"Sony Alpha a7 III","description":"Full-Frame Mirrorless Camera","price":1999.99,"category":"cameras","brand":"Sony","quantity":30,"filters":[{"name":"megapixels","value":"24MP"},{"name":"color","value":"black"},{"name":"sensor","value":"Full-Frame"}]}
+{"index":{"_id":"28"}}
+{"title":"Yeti Rambler 20 oz Tumbler","description":"Insulated Travel Mug","price":29.99,"category":"home","brand":"Yeti","quantity":300,"filters":[{"name":"color","value":"stainless steel"},{"name":"capacity","value":"20 oz"},{"name":"material","value":"stainless steel"}]}
+{"index":{"_id":"30"}}
+{"title":"Apple iPhone 12","description":"Previous generation Apple smartphone","price":799.99,"category":"smartphones","brand":"Apple","quantity":130,"filters":[{"name":"color","value":"black"},{"name":"storage","value":"32GB"}]}
+{"index":{"_id":"40"}}
+{"title":"Apple iPhone 14","description":"Previous generation Apple smartphone","price":799.99,"category":"smartphones","brand":"Apple","quantity":80,"filters":[{"name":"color","value":"purple"},{"name":"storage","value":"64GB"},{"name":"network","value":"5G"}]}
+{"index":{"_id":"41"}}
+{"title":"Apple iPhone 14 Pro","description":"Previous generation Apple smartphone","price":799.99,"category":"smartphones","brand":"Apple","quantity":80,"filters":[{"name":"color","value":"purple"},{"name":"storage","value":"64GB"},{"name":"network","value":"5G"}]}
+{"index":{"_id":"42"}}
+{"title":"Levi's 501 Original Jeans","description":"Classic straight leg jeans","price":59.99,"category":"clothing","brand":"Levi's","quantity":100,"filters":[{"name":"color","value":"blue"},{"name":"size","value":"32"}]}
+{"index":{"_id":"43"}}
+{"title":"Nike Air Force 1","description":"Classic white sneakers","price":89.99,"category":"clothing","brand":"Nike","quantity":200,"filters":[{"name":"color","value":"white"},{"name":"size","value":"10"},{"name":"style","value":"low-top"}]}
+{"index":{"_id":"44"}}
+{"title":"Adidas Originals Hoodie","description":"Comfortable and stylish hoodie","price":65,"category":"clothing","brand":"Adidas","quantity":150,"filters":[{"name":"color","value":"black"},{"name":"size","value":"M"},{"name":"material","value":"cotton"}]}
+{"index":{"_id":"45"}}
+{"title":"Uniqlo Ultra Light Down Jacket","description":"Lightweight and warm down jacket","price":79.9,"category":"clothing","brand":"Uniqlo","quantity":80,"filters":[{"name":"color","value":"navy"},{"name":"size","value":"L"},{"name":"material","value":"down"}]}
+{"index":{"_id":"46"}}
+{"title":"Under Armour HeatGear Leggings","description":"High-performance athletic leggings","price":49.99,"category":"clothing","brand":"Under Armour","quantity":120,"filters":[{"name":"color","value":"black"},{"name":"size","value":"S"},{"name":"fit","value":"compression"}]}
+{"index":{"_id":"47"}}
+{"title":"Patagonia Better Sweater","description":"Warm and durable fleece jacket","price":139,"category":"clothing","brand":"Patagonia","quantity":60,"filters":[{"name":"color","value":"grey"},{"name":"size","value":"XL"},{"name":"material","value":"fleece"}]}
+{"index":{"_id":"48"}}
+{"title":"H&M Slim Fit Chinos","description":"Versatile and stylish chinos","price":29.99,"category":"clothing","brand":"H&M","quantity":180,"filters":[{"name":"color","value":"khaki"},{"name":"size","value":"34"},{"name":"fit","value":"slim"}]}
+{"index":{"_id":"49"}}
+{"title":"Columbia Rain Jacket","description":"Waterproof and breathable rain jacket","price":89.99,"category":"clothing","brand":"Columbia","quantity":90,"filters":[{"name":"color","value":"green"},{"name":"size","value":"M"},{"name":"material","value":"nylon"},{"name":"feature","value":"waterproof"}]}
+{"index":{"_id":"50"}}
+{"title":"The North Face ThermoBall Jacket","description":"Warm and packable synthetic jacket","price":199,"category":"clothing","brand":"The North Face","quantity":50,"filters":[{"name":"color","value":"red"},{"name":"size","value":"L"},{"name":"material","value":"synthetic"},{"name":"feature","value":"packable"}]}
+{"index":{"_id":"51"}}
+{"title":"Zara Double Breasted Blazer","description":"Elegant and modern blazer","price":99.9,"category":"clothing","brand":"Zara","quantity":110,"filters":[{"name":"color","value":"black"},{"name":"size","value":"38"},{"name":"material","value":"polyester"}]}
+{"index":{"_id":"52"}}
+{"title":"Apple MacBook Air","description":"Lightweight and powerful laptop","price":999.99,"category":"laptops","brand":"Apple","quantity":50,"filters":[{"name":"color","value":"silver"},{"name":"storage","value":"256GB"},{"name":"ram","value":"8GB"}]}
+{"index":{"_id":"53"}}
+{"title":"Dell XPS 13","description":"High-end ultraportable laptop","price":1199.99,"category":"laptops","brand":"Dell","quantity":40,"filters":[{"name":"color","value":"platinum silver"},{"name":"storage","value":"512GB"},{"name":"ram","value":"16GB"},{"name":"processor","value":"Intel Core i7"}]}
+{"index":{"_id":"54"}}
+{"title":"HP Spectre x360","description":"Convertible laptop with touchscreen","price":1299.99,"category":"laptops","brand":"HP","quantity":30,"filters":[{"name":"color","value":"nightfall black"},{"name":"storage","value":"512GB"},{"name":"ram","value":"16GB"},{"name":"processor","value":"Intel Core i7"}]}
+{"index":{"_id":"55"}}
+{"title":"Lenovo ThinkPad X1 Carbon","description":"Business laptop with durability","price":1399.99,"category":"laptops","brand":"Lenovo","quantity":20,"filters":[{"name":"color","value":"black"},{"name":"storage","value":"1TB"},{"name":"ram","value":"16GB"},{"name":"processor","value":"Intel Core i7"}]}
+{"index":{"_id":"56"}}
+{"title":"Asus ROG Zephyrus G14","description":"Gaming laptop with high performance","price":1499.99,"category":"laptops","brand":"Asus","quantity":25,"filters":[{"name":"color","value":"eclipse gray"},{"name":"storage","value":"1TB"},{"name":"ram","value":"16GB"},{"name":"processor","value":"AMD Ryzen 9"}]}
+{"index":{"_id":"57"}}
+{"title":"Microsoft Surface Laptop 4","description":"Stylish laptop with touchscreen","price":999.99,"category":"laptops","brand":"Microsoft","quantity":35,"filters":[{"name":"color","value":"matte black"},{"name":"storage","value":"256GB"},{"name":"ram","value":"8GB"},{"name":"processor","value":"Intel Core i5"}]}
+{"index":{"_id":"58"}}
+{"title":"Acer Swift 3","description":"Affordable laptop with good performance","price":699.99,"category":"laptops","brand":"Acer","quantity":50,"filters":[{"name":"color","value":"silver"},{"name":"storage","value":"512GB"},{"name":"ram","value":"8GB"},{"name":"processor","value":"AMD Ryzen 7"}]}
+{"index":{"_id":"59"}}
+{"title":"Razer Blade 15","description":"Premium gaming laptop with sleek design","price":1999.99,"category":"laptops","brand":"Razer","quantity":15,"filters":[{"name":"color","value":"black"},{"name":"storage","value":"1TB"},{"name":"ram","value":"16GB"},{"name":"processor","value":"Intel Core i7"}]}
+{"index":{"_id":"60"}}
+{"title":"Samsung Galaxy Book Pro","description":"Ultra-thin and lightweight laptop","price":1099.99,"category":"laptops","brand":"Samsung","quantity":40,"filters":[{"name":"color","value":"mystic silver"},{"name":"storage","value":"512GB"},{"name":"ram","value":"16GB"},{"name":"processor","value":"Intel Core i7"}]}
+{"index":{"_id":"61"}}
+{"title":"LG Gram 17","description":"Large screen laptop with long battery life","price":1599.99,"category":"laptops","brand":"LG","quantity":20,"filters":[{"name":"color","value":"white"},{"name":"storage","value":"1TB"},{"name":"ram","value":"16GB"},{"name":"processor","value":"Intel Core i7"}]}
+{"index":{"_id":"62"}}
+{"title":"Adidas Ultraboost 21","description":"High-performance running shoes","price":180,"category":"shoes","brand":"Adidas","quantity":150,"filters":[{"name":"color","value":"white"},{"name":"size","value":"9"},{"name":"type","value":"running"}]}
+{"index":{"_id":"63"}}
+{"title":"Nike Air Max 270","description":"Stylish and comfortable sneakers","price":150,"category":"shoes","brand":"Nike","quantity":200,"filters":[{"name":"color","value":"black"},{"name":"size","value":"10"},{"name":"type","value":"casual"}]}
+{"index":{"_id":"64"}}
+{"title":"Puma Suede Classic","description":"Classic suede sneakers","price":70,"category":"shoes","brand":"Puma","quantity":100,"filters":[{"name":"color","value":"blue"},{"name":"size","value":"8"},{"name":"type","value":"casual"}]}
+{"index":{"_id":"65"}}
+{"title":"Reebok Nano X1","description":"Versatile training shoes","price":130,"category":"shoes","brand":"Reebok","quantity":120,"filters":[{"name":"color","value":"red"},{"name":"size","value":"11"},{"name":"type","value":"training"}]}
+{"index":{"_id":"66"}}
+{"title":"New Balance 990v5","description":"Premium quality running shoes","price":175,"category":"shoes","brand":"New Balance","quantity":80,"filters":[{"name":"color","value":"grey"},{"name":"size","value":"9.5"},{"name":"type","value":"running"}]}
+{"index":{"_id":"67"}}
+{"title":"Samsung QLED Q60T","description":"4K UHD Smart TV with vibrant colors","price":599.99,"category":"televisions","brand":"Samsung","quantity":50,"filters":[{"name":"screen_size","value":"55 inches"},{"name":"resolution","value":"4K UHD"},{"name":"smart_tv","value":"yes"}]}
+{"index":{"_id":"68"}}
+{"title":"LG OLED CX","description":"OLED TV with perfect blacks","price":1399.99,"category":"televisions","brand":"LG","quantity":30,"filters":[{"name":"screen_size","value":"65 inches"},{"name":"resolution","value":"4K UHD"},{"name":"smart_tv","value":"yes"}]}
+{"index":{"_id":"69"}}
+{"title":"Sony Bravia X900H","description":"4K HDR TV with excellent picture quality","price":999.99,"category":"televisions","brand":"Sony","quantity":40,"filters":[{"name":"screen_size","value":"55 inches"},{"name":"resolution","value":"4K UHD"},{"name":"smart_tv","value":"yes"}]}
+{"index":{"_id":"70"}}
+{"title":"TCL 6-Series Roku TV","description":"Affordable 4K TV with built-in Roku","price":649.99,"category":"televisions","brand":"TCL","quantity":60,"filters":[{"name":"screen_size","value":"55 inches"},{"name":"resolution","value":"4K UHD"},{"name":"smart_tv","value":"yes"}]}
+{"index":{"_id":"71"}}
+{"title":"Vizio M-Series Quantum","description":"4K HDR TV with Quantum Color","price":799.99,"category":"televisions","brand":"Vizio","quantity":35,"filters":[{"name":"screen_size","value":"65 inches"},{"name":"resolution","value":"4K UHD"},{"name":"smart_tv","value":"yes"}]}
+{"index":{"_id":"72"}}
+{"title":"Samsung Family Hub Refrigerator","description":"Smart refrigerator with touchscreen","price":2999.99,"category":"refrigerators","brand":"Samsung","quantity":20,"filters":[{"name":"type","value":"French door"},{"name":"capacity","value":"28 cu ft"},{"name":"smart_features","value":"yes"}]}
+{"index":{"_id":"73"}}
+{"title":"LG InstaView Door-in-Door","description":"Refrigerator with glass panel door","price":2499.99,"category":"refrigerators","brand":"LG","quantity":25,"filters":[{"name":"type","value":"French door"},{"name":"capacity","value":"27 cu ft"},{"name":"smart_features","value":"yes"}]}
+{"index":{"_id":"74"}}
+{"title":"Whirlpool Side-by-Side Refrigerator","description":"Reliable side-by-side refrigerator","price":1399.99,"category":"refrigerators","brand":"Whirlpool","quantity":30,"filters":[{"name":"type","value":"Side-by-side"},{"name":"capacity","value":"25 cu ft"},{"name":"smart_features","value":"no"}]}
+{"index":{"_id":"75"}}
+{"title":"GE Profile French Door Refrigerator","description":"Energy-efficient French door refrigerator","price":2099.99,"category":"refrigerators","brand":"GE","quantity":22,"filters":[{"name":"type","value":"French door"},{"name":"capacity","value":"23 cu ft"},{"name":"smart_features","value":"no"}]}
+{"index":{"_id":"76"}}
+{"title":"Frigidaire Top Freezer Refrigerator","description":"Affordable top freezer refrigerator","price":999.99,"category":"refrigerators","brand":"Frigidaire","quantity":40,"filters":[{"name":"type","value":"Top freezer"},{"name":"capacity","value":"20 cu ft"},{"name":"smart_features","value":"no"}]}

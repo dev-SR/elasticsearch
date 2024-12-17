@@ -1,0 +1,292 @@
+{
+    "size": 2,
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "multi_match": {
+                        "query": "samsung",
+                        "fields": [
+                            "title",
+                            "description",
+                            "all_filters"
+                        ],
+                        "type": "phrase_prefix"
+                    }
+                }
+            ]
+        }
+    },
+    "post_filter": {
+        "bool": {
+            "filter": [
+                {
+                    "nested": {
+                        "path": "filters",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "filters.name": "RAM"
+                                        }
+                                    }
+                                ],
+                                "should": [
+                                    {
+                                        "term": {
+                                            "filters.value": "8GB"
+                                        }
+                                    },
+                                    {
+                                        "term": {
+                                            "filters.value": "6GB"
+                                        }
+                                    }
+                                ],
+                                "minimum_should_match": 1
+                            }
+                        }
+                    }
+                },
+                {
+                    "nested": {
+                        "path": "filters",
+                        "query": {
+                            "bool": {
+                                "must": [
+                                    {
+                                        "term": {
+                                            "filters.name": "Storage"
+                                        }
+                                    }
+                                ],
+                                "should": [
+                                    {
+                                        "term": {
+                                            "filters.value": "128GB"
+                                        }
+                                    }
+                                ],
+                                "minimum_should_match": 1
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "aggs": {
+        "aggs_all_filters": {
+            "filter": {
+                "bool": {
+                    "filter": [
+                        {
+                            "nested": {
+                                "path": "filters",
+                                "query": {
+                                    "bool": {
+                                        "must": [
+                                            {
+                                                "term": {
+                                                    "filters.name": "RAM"
+                                                }
+                                            }
+                                        ],
+                                        "should": [
+                                            {
+                                                "term": {
+                                                    "filters.value": "8GB"
+                                                }
+                                            },
+                                            {
+                                                "term": {
+                                                    "filters.value": "6GB"
+                                                }
+                                            }
+                                        ],
+                                        "minimum_should_match": 1
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "nested": {
+                                "path": "filters",
+                                "query": {
+                                    "bool": {
+                                        "must": [
+                                            {
+                                                "term": {
+                                                    "filters.name": "Storage"
+                                                }
+                                            }
+                                        ],
+                                        "should": [
+                                            {
+                                                "term": {
+                                                    "filters.value": "128GB"
+                                                }
+                                            }
+                                        ],
+                                        "minimum_should_match": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "aggs": {
+                "facets": {
+                    "nested": {
+                        "path": "filters"
+                    },
+                    "aggs": {
+                        "names": {
+                            "terms": {
+                                "field": "filters.name"
+                            },
+                            "aggs": {
+                                "values": {
+                                    "terms": {
+                                        "field": "filters.value"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "aggs_RAM": {
+            "filter": {
+                "bool": {
+                    "filter": [
+                        {
+                            "nested": {
+                                "path": "filters",
+                                "query": {
+                                    "bool": {
+                                        "must": [
+                                            {
+                                                "term": {
+                                                    "filters.name": "Storage"
+                                                }
+                                            }
+                                        ],
+                                        "should": [
+                                            {
+                                                "term": {
+                                                    "filters.value": "128GB"
+                                                }
+                                            }
+                                        ],
+                                        "minimum_should_match": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "aggs": {
+                "facets": {
+                    "nested": {
+                        "path": "filters"
+                    },
+                    "aggs": {
+                        "agg_special": {
+                            "filter": {
+                                "match": {
+                                    "filters.name": "RAM"
+                                }
+                            },
+                            "aggs": {
+                                "names": {
+                                    "terms": {
+                                        "field": "filters.name"
+                                    },
+                                    "aggs": {
+                                        "values": {
+                                            "terms": {
+                                                "field": "filters.value"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "aggs_Storage": {
+            "filter": {
+                "bool": {
+                    "filter": [
+                        {
+                            "nested": {
+                                "path": "filters",
+                                "query": {
+                                    "bool": {
+                                        "must": [
+                                            {
+                                                "term": {
+                                                    "filters.name": "RAM"
+                                                }
+                                            }
+                                        ],
+                                        "should": [
+                                            {
+                                                "term": {
+                                                    "filters.value": "8GB"
+                                                }
+                                            },
+                                            {
+                                                "term": {
+                                                    "filters.value": "6GB"
+                                                }
+                                            }
+                                        ],
+                                        "minimum_should_match": 1
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "aggs": {
+                "facets": {
+                    "nested": {
+                        "path": "filters"
+                    },
+                    "aggs": {
+                        "agg_special": {
+                            "filter": {
+                                "match": {
+                                    "filters.name": "Storage"
+                                }
+                            },
+                            "aggs": {
+                                "names": {
+                                    "terms": {
+                                        "field": "filters.name"
+                                    },
+                                    "aggs": {
+                                        "values": {
+                                            "terms": {
+                                                "field": "filters.value"
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

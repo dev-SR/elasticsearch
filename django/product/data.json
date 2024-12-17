@@ -1,0 +1,2748 @@
+[
+    {
+        "title": "Apple iPhone 15 pro",
+        "description": "best in best",
+        "price": 1000,
+        "quantity": 10,
+        "category": "Smartphones",
+        "brand": "Apple",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "red"
+            },
+            {
+                "name": "RAM",
+                "value": "4GB"
+            },
+            {
+                "name": "Storage",
+                "value": "128GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.1 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "A15 Bionic Pro"
+            },
+            {
+                "name": "Battery",
+                "value": "4000 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Apple iPhone 15",
+        "description": "great performance",
+        "price": 900,
+        "quantity": 15,
+        "category": "Smartphones",
+        "brand": "Apple",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "blue"
+            },
+            {
+                "name": "RAM",
+                "value": "6GB"
+            },
+            {
+                "name": "Storage",
+                "value": "256GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.5 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "LCD"
+            },
+            {
+                "name": "Chipset",
+                "value": "A15 Bionic"
+            },
+            {
+                "name": "Battery",
+                "value": "3800 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Apple iPhone 14 pro",
+        "description": "highly reliable",
+        "price": 800,
+        "quantity": 20,
+        "category": "Smartphones",
+        "brand": "Apple",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "black"
+            },
+            {
+                "name": "RAM",
+                "value": "4GB"
+            },
+            {
+                "name": "Storage",
+                "value": "128GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.1 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "OLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "A14 Bionic Pro"
+            },
+            {
+                "name": "Battery",
+                "value": "3500 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Apple iPhone 14",
+        "description": "affordable luxury",
+        "price": 700,
+        "quantity": 25,
+        "category": "Smartphones",
+        "brand": "Apple",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "white"
+            },
+            {
+                "name": "RAM",
+                "value": "4GB"
+            },
+            {
+                "name": "Storage",
+                "value": "64GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "5.8 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "LCD"
+            },
+            {
+                "name": "Chipset",
+                "value": "A14 Bionic"
+            },
+            {
+                "name": "Battery",
+                "value": "3100 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Apple iPhone 13 pro",
+        "description": "premium choice",
+        "price": 900,
+        "quantity": 12,
+        "category": "Smartphones",
+        "brand": "Apple",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "gold"
+            },
+            {
+                "name": "RAM",
+                "value": "6GB"
+            },
+            {
+                "name": "Storage",
+                "value": "512GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.7 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "OLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "A13 Bionic Pro"
+            },
+            {
+                "name": "Battery",
+                "value": "4200 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Apple iPhone 13",
+        "description": "great value",
+        "price": 750,
+        "quantity": 18,
+        "category": "Smartphones",
+        "brand": "Apple",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "green"
+            },
+            {
+                "name": "RAM",
+                "value": "4GB"
+            },
+            {
+                "name": "Storage",
+                "value": "128GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.1 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "A13 Bionic"
+            },
+            {
+                "name": "Battery",
+                "value": "3400 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Samsung Galaxy S22 Ultra",
+        "description": "Ultimate performance",
+        "price": 1200,
+        "quantity": 8,
+        "category": "Smartphones",
+        "brand": "Samsung",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "phantom black"
+            },
+            {
+                "name": "RAM",
+                "value": "12GB"
+            },
+            {
+                "name": "Storage",
+                "value": "256GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.8 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "Dynamic AMOLED 2X"
+            },
+            {
+                "name": "Chipset",
+                "value": "Exynos 2200"
+            },
+            {
+                "name": "Battery",
+                "value": "5000 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Samsung Galaxy S22",
+        "description": "High-end features",
+        "price": 999,
+        "quantity": 10,
+        "category": "Smartphones",
+        "brand": "Samsung",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "phantom white"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "Storage",
+                "value": "128GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.1 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "Dynamic AMOLED 2X"
+            },
+            {
+                "name": "Chipset",
+                "value": "Exynos 2200"
+            },
+            {
+                "name": "Battery",
+                "value": "3700 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Samsung Galaxy S21 Ultra",
+        "description": "Premium flagship",
+        "price": 1100,
+        "quantity": 7,
+        "category": "Smartphones",
+        "brand": "Samsung",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "navy blue"
+            },
+            {
+                "name": "RAM",
+                "value": "12GB"
+            },
+            {
+                "name": "Storage",
+                "value": "512GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.8 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "Dynamic AMOLED 2X"
+            },
+            {
+                "name": "Chipset",
+                "value": "Exynos 2100"
+            },
+            {
+                "name": "Battery",
+                "value": "5000 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Samsung Galaxy S21",
+        "description": "Exceptional value",
+        "price": 850,
+        "quantity": 12,
+        "category": "Smartphones",
+        "brand": "Samsung",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "violet"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "Storage",
+                "value": "256GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.2 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "Dynamic AMOLED 2X"
+            },
+            {
+                "name": "Chipset",
+                "value": "Exynos 2100"
+            },
+            {
+                "name": "Battery",
+                "value": "4000 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Samsung Galaxy S20 FE",
+        "description": "Fan edition",
+        "price": 700,
+        "quantity": 20,
+        "category": "Smartphones",
+        "brand": "Samsung",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "cloud lavender"
+            },
+            {
+                "name": "RAM",
+                "value": "6GB"
+            },
+            {
+                "name": "Storage",
+                "value": "128GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.5 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "Super AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Snapdragon 865"
+            },
+            {
+                "name": "Battery",
+                "value": "4500 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Xiaomi Mi 11 Ultra",
+        "description": "Ultra performance and camera",
+        "price": 1200,
+        "quantity": 5,
+        "category": "Smartphones",
+        "brand": "Xiaomi",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "ceramic white"
+            },
+            {
+                "name": "RAM",
+                "value": "12GB"
+            },
+            {
+                "name": "Storage",
+                "value": "256GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.81 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Snapdragon 888"
+            },
+            {
+                "name": "Battery",
+                "value": "5000 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Xiaomi Mi 11",
+        "description": "Flagship performance",
+        "price": 900,
+        "quantity": 10,
+        "category": "Smartphones",
+        "brand": "Xiaomi",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "horizon blue"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "Storage",
+                "value": "128GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.81 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Snapdragon 888"
+            },
+            {
+                "name": "Battery",
+                "value": "4600 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Xiaomi Mi 10T Pro",
+        "description": "Powerful and versatile",
+        "price": 650,
+        "quantity": 15,
+        "category": "Smartphones",
+        "brand": "Xiaomi",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "lunar silver"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "Storage",
+                "value": "128GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.67 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "IPS LCD"
+            },
+            {
+                "name": "Chipset",
+                "value": "Snapdragon 865"
+            },
+            {
+                "name": "Battery",
+                "value": "5000 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Xiaomi Mi 10",
+        "description": "Solid flagship",
+        "price": 800,
+        "quantity": 8,
+        "category": "Smartphones",
+        "brand": "Xiaomi",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "coral green"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "Storage",
+                "value": "256GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.67 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Snapdragon 865"
+            },
+            {
+                "name": "Battery",
+                "value": "4780 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Xiaomi Mi 10 Lite",
+        "description": "Affordable 5G",
+        "price": 450,
+        "quantity": 20,
+        "category": "Smartphones",
+        "brand": "Xiaomi",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "cosmic gray"
+            },
+            {
+                "name": "RAM",
+                "value": "6GB"
+            },
+            {
+                "name": "Storage",
+                "value": "128GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.57 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Snapdragon 765G"
+            },
+            {
+                "name": "Battery",
+                "value": "4160 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Google Pixel 6 Pro",
+        "description": "The ultimate Google phone",
+        "price": 999,
+        "quantity": 10,
+        "category": "Smartphones",
+        "brand": "Google",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "stormy black"
+            },
+            {
+                "name": "RAM",
+                "value": "12GB"
+            },
+            {
+                "name": "Storage",
+                "value": "256GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.7 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "LTPO OLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Google Tensor"
+            },
+            {
+                "name": "Battery",
+                "value": "5003 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Google Pixel 6",
+        "description": "Smart, powerful, helpful",
+        "price": 799,
+        "quantity": 12,
+        "category": "Smartphones",
+        "brand": "Google",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "kinda coral"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "Storage",
+                "value": "128GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.4 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Google Tensor"
+            },
+            {
+                "name": "Battery",
+                "value": "4614 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Oppo Find X3 Pro",
+        "description": "Uncover the ultimate",
+        "price": 1150,
+        "quantity": 7,
+        "category": "Smartphones",
+        "brand": "Oppo",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "gloss black"
+            },
+            {
+                "name": "RAM",
+                "value": "12GB"
+            },
+            {
+                "name": "Storage",
+                "value": "256GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.7 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Snapdragon 888"
+            },
+            {
+                "name": "Battery",
+                "value": "4500 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Oppo Reno 6 Pro",
+        "description": "Powerful and stylish",
+        "price": 700,
+        "quantity": 15,
+        "category": "Smartphones",
+        "brand": "Oppo",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "arctic blue"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "Storage",
+                "value": "128GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.55 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Snapdragon 870"
+            },
+            {
+                "name": "Battery",
+                "value": "4500 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Vivo X70 Pro+",
+        "description": "Ultimate photography flagship",
+        "price": 1200,
+        "quantity": 10,
+        "category": "Smartphones",
+        "brand": "Vivo",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "cosmic black"
+            },
+            {
+                "name": "RAM",
+                "value": "12GB"
+            },
+            {
+                "name": "Storage",
+                "value": "256GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.78 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Snapdragon 888+"
+            },
+            {
+                "name": "Battery",
+                "value": "4500 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Vivo V21 5G",
+        "description": "Slim and sleek 5G",
+        "price": 400,
+        "quantity": 20,
+        "category": "Smartphones",
+        "brand": "Vivo",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "dusk blue"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "Storage",
+                "value": "128GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.44 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Dimensity 800U"
+            },
+            {
+                "name": "Battery",
+                "value": "4000 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Realme GT 2 Pro",
+        "description": "Flagship killer",
+        "price": 700,
+        "quantity": 15,
+        "category": "Smartphones",
+        "brand": "Realme",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "paper white"
+            },
+            {
+                "name": "RAM",
+                "value": "12GB"
+            },
+            {
+                "name": "Storage",
+                "value": "256GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.7 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Snapdragon 8 Gen 1"
+            },
+            {
+                "name": "Battery",
+                "value": "5000 mAh"
+            }
+        ]
+    },
+    {
+        "title": "Realme 9 Pro+",
+        "description": "Affordable performance",
+        "price": 350,
+        "quantity": 25,
+        "category": "Smartphones",
+        "brand": "Realme",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "sunrise blue"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "Storage",
+                "value": "128GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.4 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Dimensity 920"
+            },
+            {
+                "name": "Battery",
+                "value": "4500 mAh"
+            }
+        ]
+    },
+    {
+        "title": "OnePlus 10 Pro",
+        "description": "Flagship performance",
+        "price": 899,
+        "quantity": 10,
+        "category": "Smartphones",
+        "brand": "OnePlus",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "volcanic black"
+            },
+            {
+                "name": "RAM",
+                "value": "12GB"
+            },
+            {
+                "name": "Storage",
+                "value": "256GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.7 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Snapdragon 8 Gen 1"
+            },
+            {
+                "name": "Battery",
+                "value": "5000 mAh"
+            }
+        ]
+    },
+    {
+        "title": "OnePlus 9 Pro",
+        "description": "Pro performance",
+        "price": 799,
+        "quantity": 15,
+        "category": "Smartphones",
+        "brand": "OnePlus",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "morning mist"
+            },
+            {
+                "name": "RAM",
+                "value": "12GB"
+            },
+            {
+                "name": "Storage",
+                "value": "256GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.7 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "Fluid AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Snapdragon 888"
+            },
+            {
+                "name": "Battery",
+                "value": "4500 mAh"
+            }
+        ]
+    },
+    {
+        "title": "OnePlus 8T",
+        "description": "Smooth and fast",
+        "price": 599,
+        "quantity": 20,
+        "category": "Smartphones",
+        "brand": "OnePlus",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "aquamarine green"
+            },
+            {
+                "name": "RAM",
+                "value": "12GB"
+            },
+            {
+                "name": "Storage",
+                "value": "256GB"
+            },
+            {
+                "name": "Display Size",
+                "value": "6.55 inch"
+            },
+            {
+                "name": "Display Type",
+                "value": "Fluid AMOLED"
+            },
+            {
+                "name": "Chipset",
+                "value": "Snapdragon 865"
+            },
+            {
+                "name": "Battery",
+                "value": "4500 mAh"
+            }
+        ]
+    },
+    {
+        "title": "HP Spectre x360 14",
+        "description": "Convertible 2-in-1 laptop",
+        "price": 1500,
+        "quantity": 5,
+        "category": "Laptops",
+        "brand": "HP",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Intel Core i7"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "11th Gen"
+            },
+            {
+                "name": "Display Size",
+                "value": "13.5 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "16GB"
+            },
+            {
+                "name": "SSD",
+                "value": "512GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Intel Iris Xe"
+            }
+        ]
+    },
+    {
+        "title": "HP Envy 15",
+        "description": "High-performance laptop for creators",
+        "price": 1300,
+        "quantity": 7,
+        "category": "Laptops",
+        "brand": "HP",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Intel Core i7"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "10th Gen"
+            },
+            {
+                "name": "Display Size",
+                "value": "15.6 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "16GB"
+            },
+            {
+                "name": "SSD",
+                "value": "1TB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "NVIDIA GeForce GTX 1650 Ti"
+            }
+        ]
+    },
+    {
+        "title": "HP Pavilion x360",
+        "description": "Versatile convertible laptop",
+        "price": 800,
+        "quantity": 10,
+        "category": "Laptops",
+        "brand": "HP",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Intel Core i5"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "10th Gen"
+            },
+            {
+                "name": "Display Size",
+                "value": "14 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "SSD",
+                "value": "256GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Intel UHD Graphics"
+            }
+        ]
+    },
+    {
+        "title": "HP Omen 15",
+        "description": "Gaming powerhouse",
+        "price": 1600,
+        "quantity": 3,
+        "category": "Laptops",
+        "brand": "HP",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "AMD Ryzen 7"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "5000 Series"
+            },
+            {
+                "name": "Display Size",
+                "value": "15.6 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "16GB"
+            },
+            {
+                "name": "SSD",
+                "value": "1TB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "NVIDIA GeForce RTX 3070"
+            }
+        ]
+    },
+    {
+        "title": "HP Elite Dragonfly",
+        "description": "Ultra-light business laptop",
+        "price": 1700,
+        "quantity": 4,
+        "category": "Laptops",
+        "brand": "HP",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Intel Core i7"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "8th Gen"
+            },
+            {
+                "name": "Display Size",
+                "value": "13.3 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "16GB"
+            },
+            {
+                "name": "SSD",
+                "value": "512GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Intel UHD Graphics 620"
+            }
+        ]
+    },
+    {
+        "title": "Apple MacBook Pro 16 (M1 Max)",
+        "description": "Ultimate power and performance",
+        "price": 3500,
+        "quantity": 5,
+        "category": "Laptops",
+        "brand": "Apple",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Apple M1 Max"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "2021"
+            },
+            {
+                "name": "Display Size",
+                "value": "16 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "32GB"
+            },
+            {
+                "name": "SSD",
+                "value": "1TB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Integrated 32-core GPU"
+            }
+        ]
+    },
+    {
+        "title": "Apple MacBook Air (M2)",
+        "description": "Light and powerful",
+        "price": 1200,
+        "quantity": 10,
+        "category": "Laptops",
+        "brand": "Apple",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Apple M2"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "2022"
+            },
+            {
+                "name": "Display Size",
+                "value": "13.6 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "SSD",
+                "value": "256GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Integrated 10-core GPU"
+            }
+        ]
+    },
+    {
+        "title": "Apple MacBook Pro 14 (M1 Pro)",
+        "description": "Pro performance in a compact design",
+        "price": 2500,
+        "quantity": 8,
+        "category": "Laptops",
+        "brand": "Apple",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Apple M1 Pro"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "2021"
+            },
+            {
+                "name": "Display Size",
+                "value": "14 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "16GB"
+            },
+            {
+                "name": "SSD",
+                "value": "512GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Integrated 16-core GPU"
+            }
+        ]
+    },
+    {
+        "title": "Apple MacBook Pro 13 (M2)",
+        "description": "Portable and powerful",
+        "price": 1500,
+        "quantity": 12,
+        "category": "Laptops",
+        "brand": "Apple",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Apple M2"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "2022"
+            },
+            {
+                "name": "Display Size",
+                "value": "13.3 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "SSD",
+                "value": "512GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Integrated 10-core GPU"
+            }
+        ]
+    },
+    {
+        "title": "Apple MacBook Air (M1)",
+        "description": "Efficient and versatile",
+        "price": 999,
+        "quantity": 20,
+        "category": "Laptops",
+        "brand": "Apple",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Apple M1"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "2020"
+            },
+            {
+                "name": "Display Size",
+                "value": "13.3 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "SSD",
+                "value": "256GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Integrated 7-core GPU"
+            }
+        ]
+    },
+    {
+        "title": "Dell XPS 15",
+        "description": "Powerful performance in a sleek design",
+        "price": 1800,
+        "quantity": 8,
+        "category": "Laptops",
+        "brand": "Dell",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Intel Core i7"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "11th Gen"
+            },
+            {
+                "name": "Display Size",
+                "value": "15.6 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "16GB"
+            },
+            {
+                "name": "SSD",
+                "value": "512GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "NVIDIA GeForce GTX 1650 Ti"
+            }
+        ]
+    },
+    {
+        "title": "Dell Inspiron 14 5000",
+        "description": "Versatile everyday laptop",
+        "price": 700,
+        "quantity": 12,
+        "category": "Laptops",
+        "brand": "Dell",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Intel Core i5"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "11th Gen"
+            },
+            {
+                "name": "Display Size",
+                "value": "14 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "SSD",
+                "value": "256GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Intel UHD Graphics"
+            }
+        ]
+    },
+    {
+        "title": "Dell Alienware m15 R6",
+        "description": "Gaming powerhouse",
+        "price": 2500,
+        "quantity": 5,
+        "category": "Laptops",
+        "brand": "Dell",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Intel Core i9"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "11th Gen"
+            },
+            {
+                "name": "Display Size",
+                "value": "15.6 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "32GB"
+            },
+            {
+                "name": "SSD",
+                "value": "1TB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "NVIDIA GeForce RTX 3080"
+            }
+        ]
+    },
+    {
+        "title": "Dell Latitude 9510",
+        "description": "Premium business laptop",
+        "price": 2000,
+        "quantity": 6,
+        "category": "Laptops",
+        "brand": "Dell",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Intel Core i7"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "10th Gen"
+            },
+            {
+                "name": "Display Size",
+                "value": "15 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "16GB"
+            },
+            {
+                "name": "SSD",
+                "value": "512GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Intel UHD Graphics"
+            }
+        ]
+    },
+    {
+        "title": "Dell G5 15 SE",
+        "description": "Affordable gaming laptop",
+        "price": 1200,
+        "quantity": 10,
+        "category": "Laptops",
+        "brand": "Dell",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "AMD Ryzen 7"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "5000 Series"
+            },
+            {
+                "name": "Display Size",
+                "value": "15.6 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "16GB"
+            },
+            {
+                "name": "SSD",
+                "value": "512GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "AMD Radeon RX 5600M"
+            }
+        ]
+    },
+    {
+        "title": "Asus ROG Zephyrus G14",
+        "description": "Compact gaming powerhouse",
+        "price": 1500,
+        "quantity": 8,
+        "category": "Laptops",
+        "brand": "Asus",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "AMD Ryzen 9"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "5000 Series"
+            },
+            {
+                "name": "Display Size",
+                "value": "14 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "16GB"
+            },
+            {
+                "name": "SSD",
+                "value": "1TB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "NVIDIA GeForce RTX 3060"
+            }
+        ]
+    },
+    {
+        "title": "Asus ZenBook 14",
+        "description": "Ultra-slim and lightweight",
+        "price": 1100,
+        "quantity": 12,
+        "category": "Laptops",
+        "brand": "Asus",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Intel Core i7"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "11th Gen"
+            },
+            {
+                "name": "Display Size",
+                "value": "14 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "16GB"
+            },
+            {
+                "name": "SSD",
+                "value": "512GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Intel Iris Xe"
+            }
+        ]
+    },
+    {
+        "title": "Asus TUF Gaming A15",
+        "description": "Budget-friendly gaming laptop",
+        "price": 1000,
+        "quantity": 10,
+        "category": "Laptops",
+        "brand": "Asus",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "AMD Ryzen 7"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "4000 Series"
+            },
+            {
+                "name": "Display Size",
+                "value": "15.6 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "16GB"
+            },
+            {
+                "name": "SSD",
+                "value": "512GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "NVIDIA GeForce GTX 1660 Ti"
+            }
+        ]
+    },
+    {
+        "title": "Asus VivoBook S15",
+        "description": "Stylish and versatile",
+        "price": 800,
+        "quantity": 15,
+        "category": "Laptops",
+        "brand": "Asus",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Intel Core i5"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "11th Gen"
+            },
+            {
+                "name": "Display Size",
+                "value": "15.6 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "SSD",
+                "value": "256GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Intel Iris Xe"
+            }
+        ]
+    },
+    {
+        "title": "Asus ROG Strix Scar 17",
+        "description": "High-performance gaming laptop",
+        "price": 2500,
+        "quantity": 5,
+        "category": "Laptops",
+        "brand": "Asus",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "AMD Ryzen 9"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "5000 Series"
+            },
+            {
+                "name": "Display Size",
+                "value": "17.3 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "32GB"
+            },
+            {
+                "name": "SSD",
+                "value": "1TB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "NVIDIA GeForce RTX 3080"
+            }
+        ]
+    },
+    {
+        "title": "Lenovo ThinkPad X1 Carbon Gen 9",
+        "description": "Premium business laptop",
+        "price": 1800,
+        "quantity": 8,
+        "category": "Laptops",
+        "brand": "Lenovo",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Intel Core i7"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "11th Gen"
+            },
+            {
+                "name": "Display Size",
+                "value": "14 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "16GB"
+            },
+            {
+                "name": "SSD",
+                "value": "512GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Intel Iris Xe"
+            }
+        ]
+    },
+    {
+        "title": "Lenovo Legion 5 Pro",
+        "description": "Powerful gaming laptop",
+        "price": 1500,
+        "quantity": 12,
+        "category": "Laptops",
+        "brand": "Lenovo",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "AMD Ryzen 7"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "5000 Series"
+            },
+            {
+                "name": "Display Size",
+                "value": "16 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "16GB"
+            },
+            {
+                "name": "SSD",
+                "value": "1TB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "NVIDIA GeForce RTX 3060"
+            }
+        ]
+    },
+    {
+        "title": "Lenovo Yoga 9i",
+        "description": "Versatile 2-in-1 convertible",
+        "price": 1300,
+        "quantity": 10,
+        "category": "Laptops",
+        "brand": "Lenovo",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Intel Core i7"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "11th Gen"
+            },
+            {
+                "name": "Display Size",
+                "value": "14 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "16GB"
+            },
+            {
+                "name": "SSD",
+                "value": "512GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Intel Iris Xe"
+            }
+        ]
+    },
+    {
+        "title": "Lenovo IdeaPad Flex 5",
+        "description": "Affordable 2-in-1 laptop",
+        "price": 800,
+        "quantity": 15,
+        "category": "Laptops",
+        "brand": "Lenovo",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "AMD Ryzen 5"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "4000 Series"
+            },
+            {
+                "name": "Display Size",
+                "value": "14 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "SSD",
+                "value": "256GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "AMD Radeon Graphics"
+            }
+        ]
+    },
+    {
+        "title": "Lenovo ThinkBook 14s Yoga",
+        "description": "Business convertible laptop",
+        "price": 1200,
+        "quantity": 7,
+        "category": "Laptops",
+        "brand": "Lenovo",
+        "filters": [
+            {
+                "name": "Processor",
+                "value": "Intel Core i5"
+            },
+            {
+                "name": "Generation/Series",
+                "value": "11th Gen"
+            },
+            {
+                "name": "Display Size",
+                "value": "14 inch"
+            },
+            {
+                "name": "RAM",
+                "value": "8GB"
+            },
+            {
+                "name": "SSD",
+                "value": "256GB"
+            },
+            {
+                "name": "HDD",
+                "value": "None"
+            },
+            {
+                "name": "Graphics",
+                "value": "Intel Iris Xe"
+            }
+        ]
+    },
+    {
+        "title": "Samsung 50 Basic LED TV",
+        "description": "Affordable basic LED TV",
+        "price": 500,
+        "quantity": 8,
+        "category": "Televisions",
+        "brand": "Samsung",
+        "filters": [
+            {
+                "name": "Screen Size",
+                "value": "50 inch"
+            },
+            {
+                "name": "Resolution",
+                "value": "Full HD"
+            },
+            {
+                "name": "Type",
+                "value": "Basic"
+            },
+            {
+                "name": "Technology",
+                "value": "LED"
+            }
+        ]
+    },
+    {
+        "title": "Samsung 55 Smart QLED TV",
+        "description": "High-end smart QLED TV",
+        "price": 1200,
+        "quantity": 12,
+        "category": "Televisions",
+        "brand": "Samsung",
+        "filters": [
+            {
+                "name": "Screen Size",
+                "value": "55 inch"
+            },
+            {
+                "name": "Resolution",
+                "value": "4K Ultra HD"
+            },
+            {
+                "name": "Type",
+                "value": "Smart"
+            },
+            {
+                "name": "Technology",
+                "value": "QLED"
+            }
+        ]
+    },
+    {
+        "title": "Samsung 65 Android TV",
+        "description": "Android-powered large screen TV",
+        "price": 1500,
+        "quantity": 10,
+        "category": "Televisions",
+        "brand": "Samsung",
+        "filters": [
+            {
+                "name": "Screen Size",
+                "value": "65 inch"
+            },
+            {
+                "name": "Resolution",
+                "value": "4K Ultra HD"
+            },
+            {
+                "name": "Type",
+                "value": "Android"
+            },
+            {
+                "name": "Technology",
+                "value": "LED"
+            }
+        ]
+    },
+    {
+        "title": "Samsung 75 Smart LED TV",
+        "description": "Large screen smart LED TV",
+        "price": 2500,
+        "quantity": 5,
+        "category": "Televisions",
+        "brand": "Samsung",
+        "filters": [
+            {
+                "name": "Screen Size",
+                "value": "75 inch"
+            },
+            {
+                "name": "Resolution",
+                "value": "8K Ultra HD"
+            },
+            {
+                "name": "Type",
+                "value": "Smart"
+            },
+            {
+                "name": "Technology",
+                "value": "LED"
+            }
+        ]
+    },
+    {
+        "title": "Samsung 85 QLED TV",
+        "description": "Massive QLED display",
+        "price": 3500,
+        "quantity": 3,
+        "category": "Televisions",
+        "brand": "Samsung",
+        "filters": [
+            {
+                "name": "Screen Size",
+                "value": "85 inch"
+            },
+            {
+                "name": "Resolution",
+                "value": "8K Ultra HD"
+            },
+            {
+                "name": "Type",
+                "value": "Basic"
+            },
+            {
+                "name": "Technology",
+                "value": "QLED"
+            }
+        ]
+    },
+    {
+        "title": "LG 55 Basic LED TV",
+        "description": "Affordable basic LED TV",
+        "price": 600,
+        "quantity": 8,
+        "category": "Televisions",
+        "brand": "LG",
+        "filters": [
+            {
+                "name": "Screen Size",
+                "value": "55 inch"
+            },
+            {
+                "name": "Resolution",
+                "value": "Full HD"
+            },
+            {
+                "name": "Type",
+                "value": "Basic"
+            },
+            {
+                "name": "Technology",
+                "value": "LED"
+            }
+        ]
+    },
+    {
+        "title": "LG 65 Smart OLED TV",
+        "description": "High-end smart OLED TV",
+        "price": 1800,
+        "quantity": 12,
+        "category": "Televisions",
+        "brand": "LG",
+        "filters": [
+            {
+                "name": "Screen Size",
+                "value": "65 inch"
+            },
+            {
+                "name": "Resolution",
+                "value": "4K Ultra HD"
+            },
+            {
+                "name": "Type",
+                "value": "Smart"
+            },
+            {
+                "name": "Technology",
+                "value": "OLED"
+            }
+        ]
+    },
+    {
+        "title": "LG 75 Android QLED TV",
+        "description": "Android-powered QLED TV",
+        "price": 2500,
+        "quantity": 10,
+        "category": "Televisions",
+        "brand": "LG",
+        "filters": [
+            {
+                "name": "Screen Size",
+                "value": "75 inch"
+            },
+            {
+                "name": "Resolution",
+                "value": "8K Ultra HD"
+            },
+            {
+                "name": "Type",
+                "value": "Android"
+            },
+            {
+                "name": "Technology",
+                "value": "QLED"
+            }
+        ]
+    },
+    {
+        "title": "LG 50 Smart LED TV",
+        "description": "Mid-range smart LED TV",
+        "price": 1200,
+        "quantity": 5,
+        "category": "Televisions",
+        "brand": "LG",
+        "filters": [
+            {
+                "name": "Screen Size",
+                "value": "50 inch"
+            },
+            {
+                "name": "Resolution",
+                "value": "4K Ultra HD"
+            },
+            {
+                "name": "Type",
+                "value": "Smart"
+            },
+            {
+                "name": "Technology",
+                "value": "LED"
+            }
+        ]
+    },
+    {
+        "title": "LG 85 QLED TV",
+        "description": "Massive QLED display",
+        "price": 4000,
+        "quantity": 3,
+        "category": "Televisions",
+        "brand": "LG",
+        "filters": [
+            {
+                "name": "Screen Size",
+                "value": "85 inch"
+            },
+            {
+                "name": "Resolution",
+                "value": "8K Ultra HD"
+            },
+            {
+                "name": "Type",
+                "value": "Basic"
+            },
+            {
+                "name": "Technology",
+                "value": "QLED"
+            }
+        ]
+    },
+    {
+        "title": "Red Cotton T-Shirt",
+        "description": "Comfortable and casual",
+        "price": 20,
+        "quantity": 50,
+        "category": "Clothing",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "Red"
+            },
+            {
+                "name": "Size",
+                "value": "M"
+            },
+            {
+                "name": "Material",
+                "value": "Cotton"
+            },
+            {
+                "name": "Apparel Type",
+                "value": "Stitched"
+            },
+            {
+                "name": "Occasion",
+                "value": "Casual"
+            },
+            {
+                "name": "For",
+                "value": "Men"
+            }
+        ]
+    },
+    {
+        "title": "Blue Denim Jeans",
+        "description": "Classic denim look",
+        "price": 50,
+        "quantity": 30,
+        "category": "Clothing",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "Blue"
+            },
+            {
+                "name": "Size",
+                "value": "32"
+            },
+            {
+                "name": "Material",
+                "value": "Denim"
+            },
+            {
+                "name": "Apparel Type",
+                "value": "Stitched"
+            },
+            {
+                "name": "Occasion",
+                "value": "Casual"
+            },
+            {
+                "name": "For",
+                "value": "Men"
+            }
+        ]
+    },
+    {
+        "title": "Black Party Dress",
+        "description": "Elegant evening attire",
+        "price": 100,
+        "quantity": 20,
+        "category": "Clothing",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "Black"
+            },
+            {
+                "name": "Size",
+                "value": "S"
+            },
+            {
+                "name": "Material",
+                "value": "Silk"
+            },
+            {
+                "name": "Apparel Type",
+                "value": "Stitched"
+            },
+            {
+                "name": "Occasion",
+                "value": "Party"
+            },
+            {
+                "name": "For",
+                "value": "Women"
+            }
+        ]
+    },
+    {
+        "title": "White Linen Shirt",
+        "description": "Cool and breathable",
+        "price": 30,
+        "quantity": 40,
+        "category": "Clothing",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "White"
+            },
+            {
+                "name": "Size",
+                "value": "L"
+            },
+            {
+                "name": "Material",
+                "value": "Linen"
+            },
+            {
+                "name": "Apparel Type",
+                "value": "Stitched"
+            },
+            {
+                "name": "Occasion",
+                "value": "Casual"
+            },
+            {
+                "name": "For",
+                "value": "Men"
+            }
+        ]
+    },
+    {
+        "title": "Pink Chiffon Dress",
+        "description": "Flowing and feminine",
+        "price": 80,
+        "quantity": 25,
+        "category": "Clothing",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "Pink"
+            },
+            {
+                "name": "Size",
+                "value": "M"
+            },
+            {
+                "name": "Material",
+                "value": "Chiffon"
+            },
+            {
+                "name": "Apparel Type",
+                "value": "Stitched"
+            },
+            {
+                "name": "Occasion",
+                "value": "Formal"
+            },
+            {
+                "name": "For",
+                "value": "Women"
+            }
+        ]
+    },
+    {
+        "title": "Green Khadi Kurta",
+        "description": "Traditional Indian attire",
+        "price": 40,
+        "quantity": 35,
+        "category": "Clothing",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "Green"
+            },
+            {
+                "name": "Size",
+                "value": "XL"
+            },
+            {
+                "name": "Material",
+                "value": "Khadi"
+            },
+            {
+                "name": "Apparel Type",
+                "value": "Stitched"
+            },
+            {
+                "name": "Occasion",
+                "value": "Festive"
+            },
+            {
+                "name": "For",
+                "value": "Men"
+            }
+        ]
+    },
+    {
+        "title": "Yellow Summer Dress",
+        "description": "Bright and airy summer dress",
+        "price": 60,
+        "quantity": 15,
+        "category": "Clothing",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "Yellow"
+            },
+            {
+                "name": "Size",
+                "value": "S"
+            },
+            {
+                "name": "Material",
+                "value": "Cotton"
+            },
+            {
+                "name": "Apparel Type",
+                "value": "Stitched"
+            },
+            {
+                "name": "Occasion",
+                "value": "Casual"
+            },
+            {
+                "name": "For",
+                "value": "Women"
+            }
+        ]
+    },
+    {
+        "title": "Black Leather Jacket",
+        "description": "Stylish and versatile jacket",
+        "price": 120,
+        "quantity": 10,
+        "category": "Clothing",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "Black"
+            },
+            {
+                "name": "Size",
+                "value": "M"
+            },
+            {
+                "name": "Material",
+                "value": "Leather"
+            },
+            {
+                "name": "Apparel Type",
+                "value": "Stitched"
+            },
+            {
+                "name": "Occasion",
+                "value": "Casual"
+            },
+            {
+                "name": "For",
+                "value": "Men"
+            }
+        ]
+    },
+    {
+        "title": "Blue Tracksuit",
+        "description": "Comfortable sportswear",
+        "price": 70,
+        "quantity": 20,
+        "category": "Clothing",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "Blue"
+            },
+            {
+                "name": "Size",
+                "value": "L"
+            },
+            {
+                "name": "Material",
+                "value": "Polyester"
+            },
+            {
+                "name": "Apparel Type",
+                "value": "Stitched"
+            },
+            {
+                "name": "Occasion",
+                "value": "Sport"
+            },
+            {
+                "name": "For",
+                "value": "Unisex"
+            }
+        ]
+    },
+    {
+        "title": "White Linen Pants",
+        "description": "Lightweight summer pants",
+        "price": 35,
+        "quantity": 25,
+        "category": "Clothing",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "White"
+            },
+            {
+                "name": "Size",
+                "value": "M"
+            },
+            {
+                "name": "Material",
+                "value": "Linen"
+            },
+            {
+                "name": "Apparel Type",
+                "value": "Stitched"
+            },
+            {
+                "name": "Occasion",
+                "value": "Casual"
+            },
+            {
+                "name": "For",
+                "value": "Men"
+            }
+        ]
+    },
+    {
+        "title": "Nike Air Max 90",
+        "description": "Iconic Nike sneakers",
+        "price": 120,
+        "quantity": 20,
+        "category": "Shoes",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "Black"
+            },
+            {
+                "name": "Size",
+                "value": "US 10"
+            },
+            {
+                "name": "Material",
+                "value": "Mesh"
+            },
+            {
+                "name": "Type",
+                "value": "Sneakers"
+            },
+            {
+                "name": "Occasion",
+                "value": "Casual"
+            },
+            {
+                "name": "For",
+                "value": "Men"
+            }
+        ]
+    },
+    {
+        "title": "Adidas Ultraboost",
+        "description": "Comfortable running shoes",
+        "price": 150,
+        "quantity": 15,
+        "category": "Shoes",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "White"
+            },
+            {
+                "name": "Size",
+                "value": "US 9"
+            },
+            {
+                "name": "Material",
+                "value": "Primeknit"
+            },
+            {
+                "name": "Type",
+                "value": "Running Shoes"
+            },
+            {
+                "name": "Occasion",
+                "value": "Sport"
+            },
+            {
+                "name": "For",
+                "value": "Unisex"
+            }
+        ]
+    },
+    {
+        "title": "Converse Chuck Taylor",
+        "description": "Classic canvas sneakers",
+        "price": 60,
+        "quantity": 25,
+        "category": "Shoes",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "Red"
+            },
+            {
+                "name": "Size",
+                "value": "US 8"
+            },
+            {
+                "name": "Material",
+                "value": "Canvas"
+            },
+            {
+                "name": "Type",
+                "value": "Sneakers"
+            },
+            {
+                "name": "Occasion",
+                "value": "Casual"
+            },
+            {
+                "name": "For",
+                "value": "Women"
+            }
+        ]
+    },
+    {
+        "title": "Timberland Boots",
+        "description": "Durable leather boots",
+        "price": 180,
+        "quantity": 10,
+        "category": "Shoes",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "Brown"
+            },
+            {
+                "name": "Size",
+                "value": "US 11"
+            },
+            {
+                "name": "Material",
+                "value": "Leather"
+            },
+            {
+                "name": "Type",
+                "value": "Boots"
+            },
+            {
+                "name": "Occasion",
+                "value": "Outdoor"
+            },
+            {
+                "name": "For",
+                "value": "Men"
+            }
+        ]
+    },
+    {
+        "title": "Vans Old Skool",
+        "description": "Classic skate shoes",
+        "price": 70,
+        "quantity": 30,
+        "category": "Shoes",
+        "brand": "Unknown",
+        "filters": [
+            {
+                "name": "Color",
+                "value": "Black"
+            },
+            {
+                "name": "Size",
+                "value": "US 9"
+            },
+            {
+                "name": "Material",
+                "value": "Suede"
+            },
+            {
+                "name": "Type",
+                "value": "Skate Shoes"
+            },
+            {
+                "name": "Occasion",
+                "value": "Casual"
+            },
+            {
+                "name": "For",
+                "value": "Unisex"
+            }
+        ]
+    }
+]
